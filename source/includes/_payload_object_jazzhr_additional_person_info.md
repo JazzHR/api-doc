@@ -4,25 +4,25 @@
 
 ```shell
 {
-    "3456291": {
-        "languagesSpoken": <string>,
-        "referer": <string>,
-        "wmyu": <string>,
-        "license": <boolean>,
-        "commericalDriversLicense": <boolean>,
-        "canWorkWeekends": <boolean>,
-        "canWorkEvenings": <boolean>,
-        "over18": <boolean>,
-        "flightHours": <integer>,
-        "flightGrade": <boolean>,
-        "canWorkOvertime": <boolean>,
-        "felony": <boolean>,
-        "felonyExplanation": <string>,
-        "gpa": <string>,
-        "references": <string>,
-        "eeoRace": <string>,
-        "eeoDisability": <string>,
-        "eeoVeteran": <string>
+    "number": {
+        "languagesSpoken": "string",
+        "referrer": "string",
+        "wmyu": "string",
+        "license": "boolean",
+        "commercialDriversLicense": "boolean",
+        "canWorkWeekends": "boolean",
+        "canWorkEvenings": "boolean",
+        "overEighteen": "boolean",
+        "flightHours": "number",
+        "flightGrade": "string",
+        "canWorkOvertime": "boolean",
+        "felony": "boolean",
+        "felonyExplanation": "string",
+        "gpa": "string",
+        "references": "string",
+        "eeoRace": "string",
+        "eeoDisability": "string",
+        "eeoVeteran": "string"
     }
 }
 
