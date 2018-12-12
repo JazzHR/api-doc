@@ -130,3 +130,12 @@
     }
 ]
 ```
+### Notable Attributes
+
+Attribute | Type | Description | Possible Answers
+---------| ---- | -----
+approvalStatusCode | string | Job's approval status | "Needs to be Approved", "Approved", "Not Approved"
+positionProfiles.jobCategories.code | string | Job's eeo cateogry | "No Selection", "Executive/Senior Level Officials and Managers", "Professionals", "Technicians", "Sales Workers", "Administrative Support Workers", "Craft Workers", "Operatives", "Laborers and Helpers", "Service Workers", "First/Mid Level Officals & Managers"
+positionProfiles.careerLevels.code | string | Minimum required experience level | "Not Specified", "Student (High School)", "Student (College)", Entry Level, "Mid Level", "Experienced", "Manager/Supervisor", "Senior Manager/Supervisor", "Executive", "Senior Executive"
+positionProfiles.positionScheduleTypeCodes | array<string> | Employment type | "Not Specificed", "Full Time", "Part Time", "Part Time to Full Time", "Temporary", "Temporary to Full Time", "Contracted", "Contracted to Full Time", "Internship", "Internship to Full Time", "Seasonal", "Volunteer"
+positionProfiles.positionClassification.USPositionClassification.EEOCJobCategoryCodes | array<string> | Job's EEOC category classification | "No Selection", "Executive/Senior Level Officials and Managers", "Professionals", "Technicians", "Sales Workers", "Administrative Support Workers", "Craft Workers", "Operatives", "Laborers and Helpers", "Service Workers", "First/Mid Level Officals & Managers"
