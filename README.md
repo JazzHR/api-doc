@@ -3,34 +3,41 @@
   <img src="source/images/logo.png?raw=true" alt="JazzHR Api Docs Powered by Slate" width="226">
 </p>
 
-JazzHR API Docs
----------------
-Powered by [Slate](https://github.com/lord/slate)
+# JazzHR API Docs
+*Powered by [Slate](https://github.com/lord/slate)*
 
-Getting Started with Slate
+JazzHR API Docs are internally generated publicly published documentation for our customer & partner facing APIs.
+
+The latest documentation can be viewed at [jazzhr.github.io/placeholder](#).
+
+## Contents
+
+- [Candidate Export Webhook API]()
+
+Internal Development Notes: Getting Started with Slate
 ------------------------------
 
 ### Prerequisites
 
 You're going to need:
 
- - **Linux or macOS** — Windows may work, but is unsupported.
  - **Ruby, version 2.3.1 or newer**
  - **Bundler** — If Ruby is already installed, but the `bundle` command doesn't work, just run `gem install bundler` in a terminal.
 
 ### Getting Set Up
 
-1. Fork this repository on GitHub.
-2. Clone *your forked repository* (not our original one) to your hard drive with `git clone https://github.com/YOURUSERNAME/slate.git`
-3. `cd slate`
-4. Initialize and start Slate. You can either do this locally, or with Vagrant:
+1. Clone this repository to your local machine
+2. Initialize and start Slate. You can either do this locally, or with Vagrant:
 
 ```shell
-# Run this to run locally
+# either run this to run locally
 bundle install
 bundle exec middleman server
+
+# OR run this to run with vagrant
+vagrant up
 ```
 
-You can now see the docs at http://localhost:4567. Whoa! That was fast!
+You can now see the docs at http://localhost:4567.
 
-Now that Slate is all set up on your machine, you'll probably want to learn more about [editing Slate markdown](https://github.com/lord/slate/wiki/Markdown-Syntax), or [how to publish your docs](https://github.com/lord/slate/wiki/Deploying-Slate).
+Learn more about [editing Slate markdown](https://github.com/lord/slate/wiki/Markdown-Syntax).
