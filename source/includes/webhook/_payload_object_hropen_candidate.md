@@ -242,17 +242,24 @@
 ```
 
 ### person.id.value
+
 *Used to key into AdditionalPersonInformation & PersonDocuments*
 
 ### person.gender
+
 *Prospect's gender*
+
 Possible Values:
+
 - "Male"
 - "Female"
 
 ### person.citizenship
+
 *Prospect work authorization*
+
 Possible Values:
+
 - "No Answer"
 - "U.S. Citizen/Permanent Resident"
 - "Non-citizen allowed to work for any employer"
@@ -262,11 +269,15 @@ Possible Values:
 - "Other"
 
 ### profiles.associatedPositionOpenings.positionOpeningId.value
+
 *Used to key into PositionOpenings*
 
 ### profiles.education.educationLevelCodes.name
-*Education level"*
+
+*Education level*
+
 Possible Values:
+
 - "No Answer"
 - "GED or Equivalent"
 - "High School"
@@ -284,4 +295,5 @@ Possible Values:
 - "Other"
 
 ### person.attachments.id.value
+
 *Used to key into PersonDocuments*
