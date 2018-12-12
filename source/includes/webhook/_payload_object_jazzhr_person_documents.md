@@ -16,3 +16,8 @@
     ]
 }
 ```
+### Notable Attributes
+
+Attribute | Type | Description | Possible Answers
+---------| ---- | -----
+number.id.value | number | Used to key into Documents
