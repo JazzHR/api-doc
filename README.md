@@ -2,7 +2,7 @@
   <img src="source/images/logo.png" alt="JazzHR Api Docs Powered by Slate" width="226">
 </p>
 
-<p align="center">*JazzHR API Docs Powered by [Slate](https://github.com/lord/slate)*</p>
+<p align="center">JazzHR API Docs Powered by <a href="https://github.com/lord/slate" target="_blank">Slate</a></p>
 
 JazzHR API Docs
 ---------------
