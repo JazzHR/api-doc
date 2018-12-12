@@ -39,6 +39,7 @@ JSON keys must be strings, thus the integer id is wrapped in double quotes.
 *Pilot flight grade*
 
 Possible Values:
+
 - "No Answer"
 - "Student Pilot"
 - "Recreational Pilot"
@@ -51,6 +52,7 @@ Possible Values:
 *EEO race options*
 
 Possible Values:
+
 - "Decline to answer"
 - "Hispanic or Latino"
 - "White, not Hispanic or Latino"
