@@ -1,5 +1,13 @@
 ## Field Types
 
+<aside class="notice">
+Note: All field types can be set to <strong>null</strong>
+</aside>
+
+<aside class="notice">
+Note: All field types are surrounded by double quotes except for <strong>number</strong> & <strong>boolean</strong> (see examples).
+</aside>
+
 Types | Description | Example
 ----- | ----------- | -------
 string | Arbitrary string of characters/digits/etc. | **"Foo bar 123!"**

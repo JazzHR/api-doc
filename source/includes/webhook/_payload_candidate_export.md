@@ -31,9 +31,12 @@ are all properties linked to their corresponding objects.
 Property | Type
 -------- | ----
 candidate | [HROpen Candidate](#hropen-candidate-object)
-positionOpenings | HROpen PositionOpenings
-additionalPersonInformation | JazzHR AdditionalPersonInformation
-additionalPositionOpeningsInformation | JazzHR AdditionalPositionOpeningsInformation
-additionalProfileInformation | JazzHR AdditionalProfileInformation
+positionOpenings | [HROpen PositionOpenings Array](#hropen-positionopenings-array)
+personDocuments | [JazzHR PersonDocuments Object](#jazzhr-persondocuments-object)
+additionalPersonInformation | [JazzHR AdditionalPersonInformation](#jazzhr-additionalpersoninformation-object)
+additionalPositionOpeningsInformation | [JazzHR AdditionalPositionOpeningsInformation](#jazzhr-additionalpositionopeningsinformation-object)
+additionalProfileInformation | [JazzHR AdditionalProfileInformation](#jazzhr-additionalprofileinformation-object)
+
+## Sample JSON File
 
 A full JSON example can be downloaded [here](files/jazzhr_candidate_export.sample.json).
