@@ -28,5 +28,5 @@ Note: json keys must be strings, thus the integer id is wrapped in double quotes
 ### Notable Attributes
 
 Attribute | Type | Description | Possible Answers
----------| ---- | -----
+--------- | ---- | ----------- | -----------------
 number.id.value | number | Used to key into Documents

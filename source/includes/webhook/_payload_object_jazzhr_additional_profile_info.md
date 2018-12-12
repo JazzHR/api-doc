@@ -25,5 +25,5 @@ Note: json keys must be strings, thus the integer id is wrapped in double quotes
 ### Notable Attributes
 
 Attribute | Type | Description | Possible Answers
----------| ---- | -----
+--------- | ---- | ----------- | -----------------
 number.workflowStatusCategory | string | Category of step in the related workflow | "Active", "Hired", "Not Hired"

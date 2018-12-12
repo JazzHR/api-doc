@@ -142,7 +142,7 @@ Note: Each PositionOpening object is also associated to a single item in the Jaz
 ### Notable Attributes
 
 Attribute | Type | Description | Possible Answers
----------| ---- | -----
+--------- | ---- | ----------- | -----------------
 approvalStatusCode | string | Job's approval status | "Needs to be Approved", "Approved", "Not Approved"
 positionProfiles.jobCategories.code | string | Job's eeo cateogry | "No Selection", "Executive/Senior Level Officials and Managers", "Professionals", "Technicians", "Sales Workers", "Administrative Support Workers", "Craft Workers", "Operatives", "Laborers and Helpers", "Service Workers", "First/Mid Level Officals & Managers"
 positionProfiles.careerLevels.code | string | Minimum required experience level | "Not Specified", "Student (High School)", "Student (College)", Entry Level, "Mid Level", "Experienced", "Manager/Supervisor", "Senior Manager/Supervisor", "Executive", "Senior Executive"
