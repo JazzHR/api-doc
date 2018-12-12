@@ -240,13 +240,48 @@
 }
 
 ```
-### Notable Attributes
 
-Attribute | Type | Description | Possible Answers
---------- | ---- | ----------- | ----------------
-person.id.value | string | Used to key into AdditionalPersonInformation & PersonDocuments
-person.gender | string | Prospect's gender | "Male", "Female"
-person.citizenship | string | Prospect work authorization | "No Answer", "U.S. Citizen/Permanent Resident", "Non-citizen allowed to work for any employer", "Non-citizen allowed to work for current employer", "Non-citizen seeking work authorization", "Canadian Citizen/Permanent Resident", "Other"
-profiles.associatedPositionOpenings.positionOpeningId.value | number | Used to key into PositionOpenings
-profiles.education.educationLevelCodes.name | string | Education level | "No Answer", "GED or Equivalent", "High School", "Some College", "College - Associates", "College - Bachelor of Arts", "College - Bachelor of Fine Arts", "College - Bachelor of Science", "College - Master of Arts", "College - Master of Science", "College - Master of Fine Arts", "College - Master of Business Administration", "College - Doctorate", "Medical Doctor", "Other"
-person.attachments.id.value | string | Used to key into PersonDocuments
+### person.id.value
+*Used to key into AdditionalPersonInformation & PersonDocuments*
+
+### person.gender
+*Prospect's gender*
+Possible Values:
+- "Male"
+- "Female"
+
+### person.citizenship
+*Prospect work authorization*
+Possible Values:
+- "No Answer"
+- "U.S. Citizen/Permanent Resident"
+- "Non-citizen allowed to work for any employer"
+- "Non-citizen allowed to work for current employer"
+- "Non-citizen seeking work authorization"
+- "Canadian Citizen/Permanent Resident"
+- "Other"
+
+### profiles.associatedPositionOpenings.positionOpeningId.value
+*Used to key into PositionOpenings*
+
+### profiles.education.educationLevelCodes.name
+*Education level"*
+Possible Values:
+- "No Answer"
+- "GED or Equivalent"
+- "High School"
+- "Some College"
+- "College - Associates"
+- "College - Bachelor of Arts"
+- "College - Bachelor of Fine Arts"
+- "College - Bachelor of Science"
+- "College - Master of Arts"
+- "College - Master of Science"
+- "College - Master of Fine Arts"
+- "College - Master of Business Administration"
+- "College - Doctorate"
+- "Medical Doctor"
+- "Other"
+
+### person.attachments.id.value
+*Used to key into PersonDocuments*
