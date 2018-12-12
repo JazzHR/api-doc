@@ -130,6 +130,7 @@
     }
 ]
 ```
+
 <aside class="notice">
 Note: Each PositionOpening object is associated to a single item in the HROpen Candidate Object profiles array. Mapped by profiles[index].profileId.positionOpeningId.value => positionProfiles->positionId->value
 </aside>
@@ -137,3 +138,85 @@ Note: Each PositionOpening object is associated to a single item in the HROpen C
 <aside class="notice">
 Note: Each PositionOpening object is also associated to a single item in the JazzHR AdditionalPositionOpeningsInformation object. Mapped by positionOpeningId => positionProfiles.positionId.value
 </aside>
+
+### approvalStatusCode
+
+*Job's approval status*
+
+Possible Values:
+
+- "Needs to be Approved"
+- "Approved"
+- "Not Approved"
+
+### positionProfiles.jobCategories.code
+
+*Job's eeo cateogry*
+
+Possible Values:
+
+- "No Selection"
+- "Executive/Senior Level Officials and Managers"
+- "Professionals"
+- "Technicians"
+- "Sales Workers"
+- "Administrative Support Workers"
+- "Craft Workers"
+- "Operatives"
+- "Laborers and Helpers"
+- "Service Workers"
+- "First/Mid Level Officals & Managers"
+
+### positionProfiles.careerLevels.code
+
+*Minimum required experience level*
+
+Possible Values:
+
+- "Not Specified"
+- "Student (High School)"
+- "Student (College)"
+- "Entry Level"
+- "Mid Level",
+- "Experienced"
+- "Manager/Supervisor"
+- "Senior Manager/Supervisor"
+- "Executive"
+- "Senior Executive"
+
+### positionProfiles.positionScheduleTypeCodes
+
+*Employment type*
+
+Possible Values:
+
+- "Not Specificed"
+- "Full Time"
+- "Part Time"
+- "Part Time to Full Time"
+- "Temporary"
+- "Temporary to Full Time"
+- "Contracted"
+- "Contracted to Full Time"
+- "Internship"
+- "Internship to Full Time"
+- "Seasonal"
+- "Volunteer"
+
+### positionProfiles.positionClassification.USPositionClassification.EEOCJobCategoryCodes
+
+*Job's EEOC category classification*
+
+Possible Values:
+
+- "No Selection"
+- "Executive/Senior Level Officials and Managers"
+- "Professionals"
+- "Technicians"
+- "Sales Workers"
+- "Administrative Support Workers"
+- "Craft Workers"
+- "Operatives"
+- "Laborers and Helpers"
+- "Service Workers"
+- "First/Mid Level Officals & Managers"
