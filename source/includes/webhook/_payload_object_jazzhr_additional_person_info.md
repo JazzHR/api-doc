@@ -4,7 +4,7 @@
 
 ```json
 {
-    "number": {
+    <candidate.person.id.value>: {
         "languagesSpoken": "string",
         "referrer": "string",
         "wmyu": "string",
@@ -29,10 +29,14 @@
 ```
 <aside class="notice">
 A single AdditionalPersonInformation object maps to the single HROpen Candidate Object person property. Mapped by person.id.value => personId.
-<br/>
+</aside>
+<aside class="notice">
 JSON keys must be strings, thus the integer id is wrapped in double quotes.
 </aside>
 
+### &lt;candidate.person.id.value&gt;
+
+*Id of the candidate's person object from [HROpen Candidate Object](#hropen-candidate-object)*
 
 ### flightGrade
 

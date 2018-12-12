@@ -149,7 +149,7 @@ Possible Values:
 - "Approved"
 - "Not Approved"
 
-## positionProfiles.jobCategories.code
+### positionProfiles.jobCategories.code
 
 *Job's eeo cateogry*
 
@@ -200,7 +200,7 @@ Possible Values:
 - "Contracted to Full Time"
 - "Internship"
 - "Internship to Full Time"
-- "Seasonal",
+- "Seasonal"
 - "Volunteer"
 
 ### positionProfiles.positionClassification.USPositionClassification.EEOCJobCategoryCodes

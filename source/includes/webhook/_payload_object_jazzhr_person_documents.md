@@ -4,7 +4,7 @@
 
 ```json
 {
-    "number": [
+    <candidate.person.id.value>: [
         {
             "id": {
                 "value": "number",
@@ -22,9 +22,13 @@ Note: A single PersonDocuments object maps to the single HROpen Candidate Object
 </aside>
 
 <aside class="notice">
-Note: json keys must be strings, thus the integer id is wrapped in double quotes
+Note: JSON keys must be strings, thus the integer id is wrapped in double quotes
 </aside>
 
-### id.value
+<aside class="notice">
+Note: See <a href="#jazzhr-document-object">JazzHR Document Object</a> section for more information on documents.
+</aside>
 
-*Used to key into Documents*
+### &lt;candidate.person.id.value&gt;
+
+*Id of the candidate's person object from [HROpen Candidate Object](#hropen-candidate-object)*

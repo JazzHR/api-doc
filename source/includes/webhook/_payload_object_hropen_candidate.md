@@ -293,7 +293,3 @@ Possible Values:
 - "College - Doctorate"
 - "Medical Doctor"
 - "Other"
-
-### person.attachments.id.value
-
-*Used to key into PersonDocuments*
