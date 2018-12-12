@@ -2,7 +2,7 @@
 
 > Sample HROpen Candidate JSON Object
 
-```shell
+```json
 {
     "documentId": {
         "value": "string",
@@ -28,7 +28,6 @@
             "address": [
                 {
                     "useCode": "private",
-                    "countryCode": null,
                     "countrySubdivisions": [
                         {
                             "type": "state",
@@ -70,25 +69,7 @@
                     "url": "string"
                 }
             ]
-        },
-        "attachments": [
-            {
-                "id": {
-                    "value": "number",
-                    "schemeId": "JazzHR Document to Candidate",
-                    "schemeAgencyId": "JazzHR"
-                },
-                "url": "string"
-            },
-            {
-                "id": {
-                    "value": "number",
-                    "schemeId": "JazzHR Document to Candidate",
-                    "schemeAgencyId": "JazzHR"
-                },
-                "url": "string"
-            }
-        ]
+        }
     },
     "profiles": [
         {
@@ -102,8 +83,7 @@
             "personAvailability": {
                 "availabilityDates": [
                     {
-                        "startDateTime": "date",
-                        "endDateTime": null
+                        "startDateTime": "date"
                     }
                 ]
             },
@@ -185,8 +165,7 @@
             "personAvailability": {
                 "availabilityDates": [
                     {
-                        "startDateTime": "date",
-                        "endDateTime": null
+                        "startDateTime": "date"
                     }
                 ]
             },

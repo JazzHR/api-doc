@@ -2,7 +2,7 @@
 
 > Sample JazzHR AdditionalPersonInformation JSON Object
 
-```shell
+```json
 {
     "number": {
         "languagesSpoken": "string",

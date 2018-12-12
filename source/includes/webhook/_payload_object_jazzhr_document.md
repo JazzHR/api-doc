@@ -2,11 +2,10 @@
 
 > Sample JazzHR Document JSON Object
 
-```shell
+```json
 {
-   “content” : “...base64encoded...”,
-   “mimeType” : “application/pdf”,
-   “fileName” : “TestDoc.pdf”
+   "content": "...base64encoded...",
+   "mimeType": "application/pdf",
+   "fileName": "TestDoc.pdf"
 }
-
 ```

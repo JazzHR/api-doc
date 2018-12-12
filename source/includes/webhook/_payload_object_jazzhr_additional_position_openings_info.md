@@ -2,7 +2,7 @@
 
 > Sample JazzHR AdditionalPositionOpeningsInformation JSON Object
 
-```shell
+```json
 {
     "number": {
         "isTelecommute": "string",

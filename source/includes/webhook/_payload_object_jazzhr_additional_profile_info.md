@@ -2,7 +2,7 @@
 
 > Sample JazzHR AdditionalProfileInformation JSON Object
 
-```shell
+```json
 {
     "number": {
         "rating": "number",

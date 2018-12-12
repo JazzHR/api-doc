@@ -2,13 +2,26 @@
 
 > Sample JSON Payload
 
-```shell
+```json
 {
-    "candidate": <HROpen Candidate>,
-    "positionOpenings": <HROpen PositionOpenings>,
-    "additionalPersonInformation": <JazzHR AdditionalPersonInformation>,
-    "additionalPositionOpeningsInformation": <JazzHR AdditionalPositionOpeningsInformation>,
-    "additionalProfileInformation": <JazzHR AdditionalProfileInformation>
+    "candidate": {
+        //<HROpen Candidate>
+    },
+    "positionOpenings": [
+        //<HROpen PositionOpenings>
+    ],
+    "personDocuments": {
+        //<JazzHR PersonDocuments>
+    },
+    "additionalPersonInformation": {
+        //<JazzHR AdditionalPersonInformation>
+    },
+    "additionalProfileInformation": {
+        //<JazzHR AdditionalPositionOpeningsInformation>
+    },
+    "additionalPositionOpeningsInformation": {
+        //<JazzHR AdditionalProfileInformation>
+    }
 }
 ```
 
@@ -23,4 +36,4 @@ additionalPersonInformation | JazzHR AdditionalPersonInformation
 additionalPositionOpeningsInformation | JazzHR AdditionalPositionOpeningsInformation
 additionalProfileInformation | JazzHR AdditionalProfileInformation
 
-A full JSON example can be downloaded [here](#).
+A full JSON example can be downloaded [here](files/jazzhr_candidate_export.sample.json).
