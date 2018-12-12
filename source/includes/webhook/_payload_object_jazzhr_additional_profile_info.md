@@ -15,7 +15,7 @@
 ```
 
 <aside class="notice">
-Note: Multiple AdditionalProfileInformation objects which map to a single item in the HROpen Candidate Object profiles array. Mapped by profiles[index]->associatedPositionOpenings->value => profileId
+Note: Multiple AdditionalProfileInformation objects which map to a single item in the HROpen Candidate Object profiles array. Mapped by profiles[index].associatedPositionOpenings.value => profileId
 </aside>
 
 <aside class="notice">

@@ -18,7 +18,7 @@
 ```
 
 <aside class="notice">
-Note: A single PersonDocuments object maps to the single HROpen Candidate Object person property. Mapped by person->id->value => personId.
+Note: A single PersonDocuments object maps to the single HROpen Candidate Object person property. Mapped by person.id.value => personId.
 </aside>
 
 <aside class="notice">

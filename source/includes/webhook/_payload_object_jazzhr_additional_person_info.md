@@ -28,7 +28,7 @@
 
 ```
 <aside class="notice">
-A single AdditionalPersonInformation object maps to the single HROpen Candidate Object person property. Mapped by person->id->value => personId.
+A single AdditionalPersonInformation object maps to the single HROpen Candidate Object person property. Mapped by person.id.value => personId.
 <br/>
 JSON keys must be strings, thus the integer id is wrapped in double quotes.
 </aside>
