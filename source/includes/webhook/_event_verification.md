@@ -4,8 +4,6 @@ During setup, the JazzHR platform will send an HTTP POST with an **empty payload
 
 The given endpoint must respond with a status code of 200 to be considered configured correctly to receive any other webhook events from JazzHR.
 
-## Delivery Headers
-
 HTTP POST payloads that are delivered to your webhook’s configured URL endpoint will contain a special identifying header:
 
 Header | Description
