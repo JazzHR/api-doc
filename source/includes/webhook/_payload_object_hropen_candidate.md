@@ -243,7 +243,7 @@
 ### Notable Attributes
 
 Attribute | Type | Description | Possible Answers
----------| ---- | -----
+--------- | ---- | ----------- | -----------------
 person.id.value | string | Used to key into AdditionalPersonInformation & PersonDocuments
 person.gender | string | Prospect's gender | "Male", "Female"
 person.citizenship | string | Prospect work authorization | "No Answer", "U.S. Citizen/Permanent Resident", "Non-citizen allowed to work for any employer", "Non-citizen allowed to work for current employer", "Non-citizen seeking work authorization", "Canadian Citizen/Permanent Resident", "Other"
