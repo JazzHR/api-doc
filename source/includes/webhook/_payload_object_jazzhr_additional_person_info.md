@@ -33,11 +33,53 @@ A single AdditionalPersonInformation object maps to the single HROpen Candidate 
 JSON keys must be strings, thus the integer id is wrapped in double quotes.
 </aside>
 
-### Notable Attributes
 
-Attribute | Type | Description | Possible Answers
---------- | ---- | ----------- | ----------------
-number.flightGrade | string | Pilot flight grade | "No Answer", "Student Pilot", "Recreational Pilot", "Private Pilot", "Commercial Pilot", "Airline Transport Pilot"
-number.eeoRace | string | EEO race options | "Decline to answer", "Hispanic or Latino", "White, not Hispanic or Latino", "Black or African-American, not Hispanic or Latino", "Asian, not Hispanic or Latino", "Native Hawaiian or Other Pacific Islander, not Hispanic or Latino", "American Indian or Alaskan Native, not Hispanic or Latino", "Two or More Races, not Hispanic or Latino"
-number.eeoDisability | string | EEO disability options | "Disabled Veteran", "Special Disabled Veteran", "Vietnam Era Veteran", "3 Yr. Recently Separated Veteran", "1 Yr. Recently Separated Veteran", "Other Protected Veteran", "Disabled Individual", "Not applicable"
-number.eeoVeteran | string | EEOC veteran classification | "I identify as one or more of the classifications of protected veteran listed above", "I am not a protected veteran"
+### flightGrade
+
+*Pilot flight grade*
+
+Possible Values:
+- "No Answer"
+- "Student Pilot"
+- "Recreational Pilot"
+- "Private Pilot"
+- "Commercial Pilot"
+- "Airline Transport Pilot"
+
+### eeoRace
+
+*EEO race options*
+
+Possible Values:
+- "Decline to answer"
+- "Hispanic or Latino"
+- "White, not Hispanic or Latino"
+- "Black or African-American, not Hispanic or Latino"
+- "Asian, not Hispanic or Latino"
+- "Native Hawaiian or Other Pacific Islander, not Hispanic or Latino"
+- "American Indian or Alaskan Native, not Hispanic or Latino"
+- "Two or More Races, not Hispanic or Latino"
+
+### eeoDisability
+
+*EEO disability options*
+
+Possible Values:
+
+- "Disabled Veteran"
+- "Special Disabled Veteran"
+- "Vietnam Era Veteran"
+- "3 Yr. Recently Separated Veteran"
+- "1 Yr. Recently Separated Veteran"
+- "Other Protected Veteran"
+- "Disabled Individual"
+- "Not applicable"
+
+### eeoVeteran
+
+*EEOC veteran classification*
+
+Possible Values:
+
+- "I identify as one or more of the classifications of protected veteran listed above"
+- "I am not a protected veteran"

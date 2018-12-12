@@ -25,6 +25,6 @@ Note: A single PersonDocuments object maps to the single HROpen Candidate Object
 Note: json keys must be strings, thus the integer id is wrapped in double quotes
 </aside>
 
-### number.id.value
+### id.value
 
 *Used to key into Documents*

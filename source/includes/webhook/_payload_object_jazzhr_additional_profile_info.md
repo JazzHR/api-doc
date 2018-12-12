@@ -22,8 +22,12 @@ Note: Multiple AdditionalProfileInformation objects which map to a single item i
 Note: json keys must be strings, thus the integer id is wrapped in double quotes
 </aside>
 
-### Notable Attributes
+### workflowStatusCategory
 
-Attribute | Type | Description | Possible Answers
---------- | ---- | ----------- | ----------------
-number.workflowStatusCategory | string | Category of step in the related workflow | "Active", "Hired", "Not Hired"
+*Category of step in the related workflow*
+
+Possible Values:
+
+- "Active"
+- "Hired"
+- "Not Hired"
