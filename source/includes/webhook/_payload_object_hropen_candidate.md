@@ -240,25 +240,8 @@
 }
 
 ```
-Property | Type
--------- | ------
-documentId | [HROpen Candidate ID Object](#documentid)
-person | [HROpen Person Object](#person)
-profiles | HROpen Profiles Array
+### Notable Attributes
 
-### documentId
-Property | Type | Value
+Attribute | Type | Description
 ---------| ---- | -----
-value | string | Unique ID
-schemeId | string | "JazzHR Candidate Export"
-schemeAgencyId | string | "JazzHR"
-
-### person
-
-### person#id
-
-Property | Type | Value
----------| ---- | -----
-value | string | Unique ID
-schemeId | string | "JazzHR Candidate"
-schemeAgencyId | string | "JazzHR"
+person.id.value | string | Used to key into AdditionalPersonInformation & PersonDocuments

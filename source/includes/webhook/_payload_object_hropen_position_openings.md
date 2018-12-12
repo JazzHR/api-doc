@@ -2,7 +2,7 @@
 
 > Sample HROpen PositionOpenings Array
 
-```shell
+```json
 [
     {
         "documentId": {
