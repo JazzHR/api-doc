@@ -13,3 +13,8 @@
 }
 
 ```
+### Notable Attributes
+
+Attribute | Type | Description | Possible Answers
+---------| ---- | -----
+number.workflowStatusCategory | string | Category of step in the related workflow | "Active", "Hired", "Not Hired"
