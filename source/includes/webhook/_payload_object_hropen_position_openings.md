@@ -1,21 +1,22 @@
 ## HROpen PositionOpenings Array
 
-```shell
+> Sample HROpen PositionOpenings Array
 
+```json
 [
     {
         "documentId": {
-            "value": "157_532_1542241215",
+            "value": "string",
             "schemeId": "JazzHR Candidate Export",
             "schemeAgencyId": "JazzHR"
         },
         "language": "en-US",
-        "statusCode": "Open",
-        "approvalStatusCode": null,
+        "statusCode": "string",
+        "approvalStatusCode": "string",
         "positionProfiles": [
             {
                 "positionId": {
-                    "value": 31539,
+                    "value": "number",
                     "schemeId": "JazzHR Job",
                     "schemeAgencyId": "JazzHR"
                 },
@@ -26,76 +27,75 @@
                         "channelId": {
                             "value": "internal"
                         },
-                        "start": "2018-05-16",
-                        "end": null,
+                        "start": "date",
+                        "end": "date",
                         "applicationMethods": [
                             {
                                 "personContact": {
                                     "name": {
-                                        "given": "Behat",
-                                        "family": "Cypress"
+                                        "given": "string",
+                                        "family": "string"
                                     },
                                     "roleCode": "Hiring Manager",
                                     "communication": {
                                         "email": [
                                             {
-                                                "address": "behat+admin@jazz.systems"
+                                                "address": "string"
                                             }
                                         ],
                                         "phone": [
                                             {
-                                                "formattedNumber": null
+                                                "formattedNumber": "string"
                                             }
                                         ]
                                     },
                                     "primaryLanguage": "en-US"
                                 },
                                 "applicationUri": {
-                                    "url": "https:\/\/trew.local.jazzhrdev.com\/apply\/vq97msikso\/Test-Job"
+                                    "url": "string"
                                 }
                             }
                         ]
                     }
                 ],
-                "positionTitle": "Test Job",
+                "positionTitle": "string",
                 "positionLocation": [
                     {
-                        "city": null,
-                        "postalCode": null,
-                        "countryCode": null,
+                        "city": "string",
+                        "postalCode": "string",
                         "countrySubDivisions": [
                             {
                                 "type": "state",
-                                "value": null
+                                "value": "string"
                             }
                         ]
                     }
                 ],
                 "positionOrganizations": [
                     {
-                        "name": null,
+                        "name": "string",
                         "responsibilityCode": "Department"
                     }
                 ],
                 "positionOpenQuantity": 1,
                 "jobCategories": [
                     {
-                        "code": "Executive\/Senior Level Officials and Managers"
+                        "code": "string"
                     }
                 ],
                 "careerLevels": [
                     {
-                        "code": "Entry Level"
+                        "code": "string"
                     }
                 ],
                 "positionFormattedDescriptions": [
                     {
                         "title": "Job Description",
-                        "content": "&lt;p&gt;Description&lt;\/p&gt;"
+                        "content": "template"
                     }
                 ],
                 "positionScheduleTypeCodes": [
-                    "Part Time"
+                    "string"
                 ],
                 "offeredRemunerationPackage": {
                     "basisCode": "Salaried",
@@ -103,7 +103,7 @@
                         {
                             "intervalCode": "Year",
                             "referenceAmount": {
-                                "value": null,
+                                "value": "number",
                                 "currency": "USD"
                             },
                             "typeCode": "Minimum BasePay"
@@ -111,7 +111,7 @@
                         {
                             "intervalCode": "Year",
                             "referenceAmount": {
-                                "value": null,
+                                "value": "number",
                                 "currency": "USD"
                             },
                             "typeCode": "Maximum BasePay"
@@ -121,27 +121,19 @@
                 "positionClassification": {
                     "USPositionClassification": {
                         "EEOCJobCategoryCodes": [
-                            "Executive\/Senior Level Officials and Managers"
-                        ],
-                        "exemptIndicator": false
+                            "string"
+                        ]
                     }
                 }
-            },
+            }
         ]
-    },
-    {
-        "documentId": {
-            "value": "157_532_1542241215",
-            "schemeId": "JazzHR Candidate Export",
-            "schemeAgencyId": "JazzHR"
-        },
-        "language": "en-US",
-        "statusCode": "Open",
-        "approvalStatusCode": null,
-        "positionProfiles": [
-            {
-                "positionId": {
-                    "value": 5986302,
-     ...
+    }
 ]
 ```
+<aside class="notice">
+Note: Each PositionOpening object is associated to a single item in the HROpen Candidate Object profiles array. Mapped by profiles[index].profileId.positionOpeningId.value => positionProfiles->positionId->value
+</aside>
+
+<aside class="notice">
+Note: Each PositionOpening object is also associated to a single item in the JazzHR AdditionalPositionOpeningsInformation object. Mapped by positionOpeningId => positionProfiles.positionId.value
+</aside>
