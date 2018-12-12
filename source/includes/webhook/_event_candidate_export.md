@@ -15,11 +15,10 @@ All response codes outside of this range, including `3xx` codes, will indicate t
 you did not receive the webhook, and attempts will be made to redeliver the data
 *every 5 minutes for up to 2 hours*. Webhook data is sent as JSON in the POST request body.
 
-## Delivery Headers
-
-HTTP POST payloads that are delivered to your webhook’s configured URL endpoint will contain a special header:
+HTTP POST payloads that are delivered to your webhook’s configured URL endpoint will contain specific headers:
 
 Header | Description
 ------ | -----------
 Link | This header will contain the URL for the candidate’s profile within JazzHR.
-X-JazzHR-Signature | The HMAC hex digest of the response body used to verify the source of the webhook payload. The HMAC hex digest is generated using the `sha256` hash function and the `secret` provided to JazzHR as the HMAC key.
+X-JazzHR-Event | Event type indicator. Header value will be `CANDIDATE-EXPORT`
+X-JazzHR-Signature | The HMAC hex digest of the response body used to verify the source of the webhook payload.<br/><br/>The HMAC hex digest is generated using the `sha256` hash function and the `secret` provided to JazzHR as the HMAC key.
