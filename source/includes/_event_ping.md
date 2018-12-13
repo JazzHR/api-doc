@@ -1,3 +1,0 @@
-# Ping Event
-
-## TODO
