@@ -1,8 +1,3 @@
-<!-- This image will show up on public github -->
-<p align="center">
-  <img src="source/images/logo.png?raw=true" alt="JazzHR Api Docs Powered by Slate" width="226">
-</p>
-
 # JazzHR API Docs
 *Powered by [Slate](https://github.com/lord/slate)*
 
@@ -12,7 +7,7 @@ The latest documentation can be viewed at [https://jazzhr.github.io/api-doc](htt
 
 ## Contents
 
-- [Candidate Export Webhook API]()
+- [Candidate Export Webhook API](https://jazzhr.github.io/api-doc/#candidate-export-event)
 
 Internal Development Notes: Getting Started with Slate
 ------------------------------
