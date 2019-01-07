@@ -8,7 +8,7 @@
 
 JazzHR API Docs are internally generated publicly published documentation for our customer & partner facing APIs.
 
-The latest documentation can be viewed at [jazzhr.github.io/placeholder](#).
+The latest documentation can be viewed at [https://jazzhr.github.io/api-doc](https://jazzhr.github.io/api-doc).
 
 ## Contents
 
