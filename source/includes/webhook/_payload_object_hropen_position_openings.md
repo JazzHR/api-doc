@@ -1,6 +1,6 @@
-## HROpen PositionOpenings Array
+## HR Open PositionOpenings Array
 
-> Sample HROpen PositionOpenings Array
+> Sample HR Open PositionOpenings Array
 
 ```json
 [
@@ -132,7 +132,7 @@
 ```
 
 <aside class="notice">
-Note: Each PositionOpening object is associated to a single item in the HROpen Candidate Object profiles array. Mapped by profiles[index].profileId.positionOpeningId.value => positionProfiles->positionId->value
+Note: Each PositionOpening object is associated to a single item in the HR Open Candidate Object profiles array. Mapped by profiles[index].profileId.positionOpeningId.value => positionProfiles->positionId->value
 </aside>
 
 <aside class="notice">

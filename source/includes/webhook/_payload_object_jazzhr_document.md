@@ -12,7 +12,7 @@
 
 ### Types of Documents
 
-There are two main types of documents. One, documents that are associated to the candidate’s application / application process. These can be found in the [HROpen Candidate Object](#hropen-candidate-object) profile’s attachments property. Two, additional documents associated directly with the candidate (and not necessarily with the candidate’s application). These will be found in the [JazzHR PersonDocuments Object](#jazzhr-persondocuments-object).
+There are two main types of documents. One, documents that are associated to the candidate’s application / application process. These can be found in the [HR Open Candidate Object](#hropen-candidate-object) profile’s attachments property. Two, additional documents associated directly with the candidate (and not necessarily with the candidate’s application). These will be found in the [JazzHR PersonDocuments Object](#jazzhr-persondocuments-object).
 
 ### Document URLs
 

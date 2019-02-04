@@ -1,6 +1,6 @@
-## HROpen Candidate Object
+## HR Open Candidate Object
 
-> Sample HROpen Candidate JSON Object
+> Sample HR Open Candidate JSON Object
 
 ```json
 {

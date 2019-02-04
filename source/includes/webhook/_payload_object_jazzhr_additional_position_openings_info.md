@@ -13,13 +13,13 @@
 ```
 
 <aside class="notice">
-Note: Each AdditionalPositionOpeningsInformation object is associated to a single item in the HROpen Candidate Object profiles array. Mapped by profiles[index].profileId.positionOpeningId.value => positionOpeningId
+Note: Each AdditionalPositionOpeningsInformation object is associated to a single item in the HR Open Candidate Object profiles array. Mapped by profiles[index].profileId.positionOpeningId.value => positionOpeningId
 </aside>
 
 <aside class="notice">
-Note: Each AdditionalPositionOpeningsInformation object is also associated to a single item in the HROpen positionOpenings object. Mapped by positionOpeningId => positionProfiles.positionId.value
+Note: Each AdditionalPositionOpeningsInformation object is also associated to a single item in the HR Open positionOpenings object. Mapped by positionOpeningId => positionProfiles.positionId.value
 </aside>
 
 ### &lt;candidate.profiles.associatedPositionOpenings.positionOpeningId.value&gt;
 
-*Id of an associatedPositionOpenings object from [HROpen Candidate Object](#hropen-candidate-object)*
+*Id of an associatedPositionOpenings object from [HR Open Candidate Object](#hropen-candidate-object)*
