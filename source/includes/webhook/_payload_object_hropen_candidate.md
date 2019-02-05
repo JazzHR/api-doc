@@ -95,8 +95,7 @@
                         "schemeAgencyId": "JazzHR"
                     },
                     "positionTitle": "string",
-                    "positionUri": "string",
-                    "candidateAppliedIndicator": true
+                    "positionUri": "string"
                 }
             ],
             "positionPreferences": [
@@ -177,8 +176,7 @@
                         "schemeAgencyId": "JazzHR"
                     },
                     "positionTitle": "string",
-                    "positionUri": "string",
-                    "candidateAppliedIndicator": true
+                    "positionUri": "string"
                 }
             ],
             "positionPreferences": [

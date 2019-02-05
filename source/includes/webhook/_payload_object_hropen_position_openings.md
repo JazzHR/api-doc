@@ -77,7 +77,6 @@
                         "responsibilityCode": "Department"
                     }
                 ],
-                "positionOpenQuantity": 1,
                 "jobCategories": [
                     {
                         "code": "string"
