@@ -5,11 +5,6 @@
 ```json
 [
     {
-        "documentId": {
-            "value": "string",
-            "schemeId": "JazzHR Candidate Export",
-            "schemeAgencyId": "JazzHR"
-        },
         "language": "en-US",
         "statusCode": "string",
         "approvalStatusCode": "string",
