@@ -5,6 +5,7 @@
 ```json
 {
     <candidate.profiles.profileId.value>: {
+        "candidateApplyDate": "date",
         "rating": "number",
         "workflowStatus": "string",
         "workflowStatusCategory": "string",
