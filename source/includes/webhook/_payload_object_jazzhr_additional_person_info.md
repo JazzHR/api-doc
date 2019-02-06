@@ -36,7 +36,7 @@ JSON keys must be strings, thus the integer id is wrapped in double quotes.
 
 ### &lt;candidate.person.id.value&gt;
 
-*Id of the candidate's person object from [HR Open Candidate Object](#hropen-candidate-object)*
+*Id of the candidate's person object from [HR Open Candidate Object](#hr-open-candidate-object)*
 
 ### flightGrade
 

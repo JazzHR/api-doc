@@ -24,7 +24,7 @@ Note: json keys must be strings, thus the integer id is wrapped in double quotes
 
 ### &lt;candidate.profiles.profileId.value&gt;
 
-*Id of a profile object from [HR Open Candidate Object](#hropen-candidate-object)*
+*Id of a profile object from [HR Open Candidate Object](#hr-open-candidate-object)*
 
 ### workflowStatusCategory
 

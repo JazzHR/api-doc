@@ -30,8 +30,8 @@ are all properties linked to their corresponding objects.
 
 Property | Type
 -------- | ----
-candidate | [HR Open Candidate](#hropen-candidate-object)
-positionOpenings | [HR Open PositionOpenings Array](#hropen-positionopenings-array)
+candidate | [HR Open Candidate](#hr-open-candidate-object)
+positionOpenings | [HR Open PositionOpenings Array](#hr-open-positionopenings-array)
 personDocuments | [JazzHR PersonDocuments Object](#jazzhr-persondocuments-object)
 additionalPersonInformation | [JazzHR AdditionalPersonInformation](#jazzhr-additionalpersoninformation-object)
 additionalPositionOpeningsInformation | [JazzHR AdditionalPositionOpeningsInformation](#jazzhr-additionalpositionopeningsinformation-object)

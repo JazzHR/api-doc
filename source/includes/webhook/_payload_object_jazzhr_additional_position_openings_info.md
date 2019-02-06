@@ -22,4 +22,4 @@ Note: Each AdditionalPositionOpeningsInformation object is also associated to a 
 
 ### &lt;candidate.profiles.associatedPositionOpenings.positionOpeningId.value&gt;
 
-*Id of an associatedPositionOpenings object from [HR Open Candidate Object](#hropen-candidate-object)*
+*Id of an associatedPositionOpenings object from [HR Open Candidate Object](#hr-open-candidate-object)*

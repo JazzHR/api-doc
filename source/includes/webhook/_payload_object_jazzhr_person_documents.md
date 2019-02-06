@@ -31,4 +31,4 @@ Note: See <a href="#jazzhr-document-object">JazzHR Document Object</a> section f
 
 ### &lt;candidate.person.id.value&gt;
 
-*Id of the candidate's person object from [HR Open Candidate Object](#hropen-candidate-object)*
+*Id of the candidate's person object from [HR Open Candidate Object](#hr-open-candidate-object)*
