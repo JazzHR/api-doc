@@ -1,6 +1,6 @@
-## HROpen Candidate Object
+## HR Open Candidate Object
 
-> Sample HROpen Candidate JSON Object
+> Sample HR Open Candidate JSON Object
 
 ```json
 {
@@ -95,8 +95,7 @@
                         "schemeAgencyId": "JazzHR"
                     },
                     "positionTitle": "string",
-                    "positionUri": "string",
-                    "candidateAppliedIndicator": true
+                    "positionUri": "string"
                 }
             ],
             "positionPreferences": [
@@ -177,8 +176,7 @@
                         "schemeAgencyId": "JazzHR"
                     },
                     "positionTitle": "string",
-                    "positionUri": "string",
-                    "candidateAppliedIndicator": true
+                    "positionUri": "string"
                 }
             ],
             "positionPreferences": [

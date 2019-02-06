@@ -91,8 +91,7 @@
                             "schemeAgencyId": "JazzHR"
                         },
                         "positionTitle": "string",
-                        "positionUri": "string",
-                        "candidateAppliedIndicator": true
+                        "positionUri": "string"
                     }
                 ],
                 "positionPreferences": [
@@ -173,8 +172,7 @@
                             "schemeAgencyId": "JazzHR"
                         },
                         "positionTitle": "string",
-                        "positionUri": "string",
-                        "candidateAppliedIndicator": true
+                        "positionUri": "string"
                     }
                 ],
                 "positionPreferences": [
@@ -236,11 +234,6 @@
     },
     "positionOpenings": [
         {
-            "documentId": {
-                "value": "string",
-                "schemeId": "JazzHR Candidate Export",
-                "schemeAgencyId": "JazzHR"
-            },
             "language": "en-US",
             "statusCode": "string",
             "approvalStatusCode": "string",
@@ -308,7 +301,6 @@
                             "responsibilityCode": "Department"
                         }
                     ],
-                    "positionOpenQuantity": 1,
                     "jobCategories": [
                         {
                             "code": "string"
