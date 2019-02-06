@@ -5,10 +5,10 @@
 ```json
 {
     "candidate": {
-        //<HROpen Candidate>
+        //<HR Open Candidate>
     },
     "positionOpenings": [
-        //<HROpen PositionOpenings>
+        //<HR Open PositionOpenings>
     ],
     "personDocuments": {
         //<JazzHR PersonDocuments>
@@ -30,8 +30,8 @@ are all properties linked to their corresponding objects.
 
 Property | Type
 -------- | ----
-candidate | [HROpen Candidate](#hropen-candidate-object)
-positionOpenings | [HROpen PositionOpenings Array](#hropen-positionopenings-array)
+candidate | [HR Open Candidate](#hr-open-candidate-object)
+positionOpenings | [HR Open PositionOpenings Array](#hr-open-positionopenings-array)
 personDocuments | [JazzHR PersonDocuments Object](#jazzhr-persondocuments-object)
 additionalPersonInformation | [JazzHR AdditionalPersonInformation](#jazzhr-additionalpersoninformation-object)
 additionalPositionOpeningsInformation | [JazzHR AdditionalPositionOpeningsInformation](#jazzhr-additionalpositionopeningsinformation-object)
