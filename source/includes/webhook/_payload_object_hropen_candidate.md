@@ -24,6 +24,7 @@
         "citizenShip": [
             "string"
         ],
+        "applyDate": "date",
         "communication": {
             "address": [
                 {
