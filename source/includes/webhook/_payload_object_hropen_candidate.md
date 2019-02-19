@@ -11,7 +11,7 @@
     },
     "person": {
         "id": {
-            "value": "number",
+            "value": "string",
             "schemeId": "JazzHR Candidate",
             "schemeAgencyId": "JazzHR"
         },
@@ -28,7 +28,6 @@
         "communication": {
             "address": [
                 {
-                    "useCode": "private",
                     "countrySubdivisions": [
                         {
                             "type": "state",
@@ -43,40 +42,22 @@
             ],
             "phone": [
                 {
-                    "useCode": "private",
-                    "preference": 1,
                     "formattedNumber": "string"
                 }
             ],
             "email": [
                 {
-                    "useCode": "private",
-                    "preference": 1,
                     "address": "string"
                 }
             ],
-            "web": [
-                {
-                    "name": "Homepage",
-                    "url": "string"
-                },
-                {
-                    "name": "Linkedin",
-                    "useCode": "business",
-                    "url": "string"
-                },
-                {
-                    "name": "Twitter",
-                    "url": "string"
-                }
-            ]
+            "web": "template"
         }
     },
     "profiles": [
         {
             "languageCode": "en-US",
             "profileId": {
-                "value": "number",
+                "value": "string",
                 "schemeId": "JazzHR Job Application",
                 "schemeAgencyId": "JazzHR"
             },
@@ -91,13 +72,18 @@
             "associatedPositionOpenings": [
                 {
                     "positionOpeningId": {
-                        "value": "number",
+                        "value": "string",
                         "schemeId": "JazzHR Job",
                         "schemeAgencyId": "JazzHR"
                     },
                     "positionTitle": "string",
                     "positionUri": "string",
-                    "candidateAppliedIndicator": true
+                    "candidateAppliedIndicator": true,
+                    "candidateStatus": {
+                        "name": "string",
+                        "category": "string",
+                        "transitionDateTime": "string"
+                    }
                 }
             ],
             "positionPreferences": [
@@ -144,98 +130,7 @@
                     ]
                 }
             ],
-            "attachments": [
-                {
-                    "id": {
-                        "value": "number",
-                        "schemeId": "JazzHR Document to Candidate",
-                        "schemeAgencyId": "JazzHR"
-                    },
-                    "url": "string"
-                }
-            ]
-        },
-        {
-            "languageCode": "en-US",
-            "profileId": {
-                "value": "number",
-                "schemeId": "JazzHR Job Application",
-                "schemeAgencyId": "JazzHR"
-            },
-            "profileName": "Candidate Profile",
-            "personAvailability": {
-                "availabilityDates": [
-                    {
-                        "startDateTime": "date"
-                    }
-                ]
-            },
-            "associatedPositionOpenings": [
-                {
-                    "positionOpeningId": {
-                        "value": "number",
-                        "schemeId": "JazzHR Job",
-                        "schemeAgencyId": "JazzHR"
-                    },
-                    "positionTitle": "string",
-                    "positionUri": "string",
-                    "candidateAppliedIndicator": true
-                }
-            ],
-            "positionPreferences": [
-                {
-                    "locations": [
-                        {
-                            "referenceLocation": {
-                                "countryCode": "string",
-                                "countrySubdivisions": [
-                                    {
-                                        "type": "state",
-                                        "value": "string"
-                                    }
-                                ],
-                                "city": "string",
-                                "postalCode": "string"
-                            }
-                        }
-                    ],
-                    "offeredRenumerationPackage": {
-                        "basisCode": "Salaried",
-                        "ranges": [
-                            {
-                                "typeCode": "BasePay",
-                                "minimumAmount": {
-                                    "value": "number",
-                                    "currency": "USD"
-                                },
-                                "intervalCode": "Year"
-                            }
-                        ]
-                    },
-                    "relocation": {
-                        "willingToRelocateIndicator": "boolean"
-                    }
-                }
-            ],
-            "education": [
-                {
-                    "educationLevelCodes": [
-                        {
-                            "name": "string"
-                        }
-                    ]
-                }
-            ],
-            "attachments": [
-                {
-                    "id": {
-                        "value": "number",
-                        "schemeId": "JazzHR Document to Candidate",
-                        "schemeAgencyId": "JazzHR"
-                    },
-                    "url": "string"
-                }
-            ]
+            "attachments": []
         }
     ]
 }
@@ -272,6 +167,15 @@ Possible Values:
 ### profiles.associatedPositionOpenings.positionOpeningId.value
 
 *Used to key into PositionOpenings*
+
+### profiles.associatedPositionOpenings.candidateStatus
+
+The candidate's status in the hiring workflow. Possible values for `category` include:
+
+- New
+- Active
+- Hired
+- Not Hired
 
 ### profiles.education.educationLevelCodes.name
 
