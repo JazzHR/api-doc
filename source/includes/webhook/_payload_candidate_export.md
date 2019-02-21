@@ -6,21 +6,6 @@
 {
     "candidate": {
         //<HROpen Candidate>
-    },
-    "positionOpenings": [
-        //<HROpen PositionOpenings>
-    ],
-    "personDocuments": {
-        //<JazzHR PersonDocuments>
-    },
-    "additionalPersonInformation": {
-        //<JazzHR AdditionalPersonInformation>
-    },
-    "additionalProfileInformation": {
-        //<JazzHR AdditionalPositionOpeningsInformation>
-    },
-    "additionalPositionOpeningsInformation": {
-        //<JazzHR AdditionalProfileInformation>
     }
 }
 ```
@@ -31,11 +16,6 @@ are all properties linked to their corresponding objects.
 Property | Type
 -------- | ----
 candidate | [HROpen Candidate](#hropen-candidate-object)
-positionOpenings | [HROpen PositionOpenings Array](#hropen-positionopenings-array)
-personDocuments | [JazzHR PersonDocuments Object](#jazzhr-persondocuments-object)
-additionalPersonInformation | [JazzHR AdditionalPersonInformation](#jazzhr-additionalpersoninformation-object)
-additionalPositionOpeningsInformation | [JazzHR AdditionalPositionOpeningsInformation](#jazzhr-additionalpositionopeningsinformation-object)
-additionalProfileInformation | [JazzHR AdditionalProfileInformation](#jazzhr-additionalprofileinformation-object)
 
 ## Sample JSON File
 
