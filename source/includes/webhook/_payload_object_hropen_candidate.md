@@ -4,11 +4,6 @@
 
 ```json
 {
-    "documentId": {
-        "value": "string",
-        "schemeId": "JazzHR Candidate Export",
-        "schemeAgencyId": "JazzHR"
-    },
     "person": {
         "id": {
             "value": "string",
@@ -61,14 +56,6 @@
                 "schemeId": "JazzHR Job Application",
                 "schemeAgencyId": "JazzHR"
             },
-            "profileName": "Candidate Profile",
-            "personAvailability": {
-                "availabilityDates": [
-                    {
-                        "startDateTime": "date"
-                    }
-                ]
-            },
             "associatedPositionOpenings": [
                 {
                     "positionOpeningId": {
@@ -83,41 +70,6 @@
                         "name": "string",
                         "category": "string",
                         "transitionDateTime": "string"
-                    }
-                }
-            ],
-            "positionPreferences": [
-                {
-                    "locations": [
-                        {
-                            "referenceLocation": {
-                                "countryCode": "string",
-                                "countrySubdivisions": [
-                                    {
-                                        "type": "state",
-                                        "value": "string"
-                                    }
-                                ],
-                                "city": "string",
-                                "postalCode": "string"
-                            }
-                        }
-                    ],
-                    "offeredRenumerationPackage": {
-                        "basisCode": "Salaried",
-                        "ranges": [
-                            {
-                                "typeCode": "BasePay",
-                                "minimumAmount": {
-                                    "value": "number",
-                                    "currency": "USD"
-                                },
-                                "intervalCode": "Year"
-                            }
-                        ]
-                    },
-                    "relocation": {
-                        "willingToRelocateIndicator": "boolean"
                     }
                 }
             ],
