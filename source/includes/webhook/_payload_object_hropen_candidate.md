@@ -68,7 +68,7 @@
       }],
       "attachments": [{
         "id": {
-          "value": "number",
+          "value": "string",
           "schemeId": "JazzHR Document to Candidate",
           "schemeAgencyId": "JazzHR"
         },
