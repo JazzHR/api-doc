@@ -67,8 +67,11 @@
 					"value": "number",
 					"schemeId": "JazzHR Document to Candidate",
 					"schemeAgencyId": "JazzHR"
-				},
-				"url": "https://document.url/hash"
+        },
+        "descriptions": [
+          "string"
+        ],
+				"url": "string"
 			}]
 		}]
 	}

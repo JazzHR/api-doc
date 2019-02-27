@@ -5,86 +5,80 @@
 ```json
 {
     "person": {
-        "id": {
-            "value": "string",
-            "schemeId": "JazzHR Candidate",
-            "schemeAgencyId": "JazzHR"
-        },
-        "name": {
-            "formattedName": "string",
-            "given": "string",
-            "family": "string"
-        },
-        "gender": "string",
-        "citizenShip": [
-            "string"
-        ],
-        "applyDate": "date",
-        "communication": {
-            "address": [
-                {
-                    "countrySubdivisions": [
-                        {
-                            "type": "state",
-                            "value": "string"
-                        }
-                    ],
-                    "city": "string",
-                    "postalCode": "string",
-                    "line": "string",
-                    "formattedAddress": "string"
-                }
-            ],
-            "phone": [
-                {
-                    "formattedNumber": "string"
-                }
-            ],
-            "email": [
-                {
-                    "address": "string"
-                }
-            ],
-            "web": "template"
-        }
+      "id": {
+        "value": "string",
+        "schemeId": "JazzHR Candidate",
+        "schemeAgencyId": "JazzHR"
+      },
+      "name": {
+        "formattedName": "string",
+        "given": "string",
+        "family": "string"
+      },
+      "gender": "string",
+      "citizenShip": [
+        "string"
+      ],
+      "applyDate": "date",
+      "communication": {
+        "address": [{
+          "countrySubdivisions": [{
+            "type": "state",
+            "value": "string"
+          }],
+          "city": "string",
+          "postalCode": "string",
+          "line": "string",
+          "formattedAddress": "string"
+        }],
+        "phone": [{
+          "formattedNumber": "string"
+        }],
+        "email": [{
+          "address": "string"
+        }],
+        "web": "template"
+      }
     },
-    "profiles": [
-        {
-            "languageCode": "en-US",
-            "profileId": {
-                "value": "string",
-                "schemeId": "JazzHR Job Application",
-                "schemeAgencyId": "JazzHR"
-            },
-            "associatedPositionOpenings": [
-                {
-                    "positionOpeningId": {
-                        "value": "string",
-                        "schemeId": "JazzHR Job",
-                        "schemeAgencyId": "JazzHR"
-                    },
-                    "positionTitle": "string",
-                    "positionUri": "string",
-                    "candidateAppliedIndicator": true,
-                    "candidateStatus": {
-                        "name": "string",
-                        "category": "string",
-                        "transitionDateTime": "string"
-                    }
-                }
-            ],
-            "education": [
-                {
-                    "educationLevelCodes": [
-                        {
-                            "name": "string"
-                        }
-                    ]
-                }
-            ],
-            "attachments": []
+    "profiles": [{
+      "languageCode": "en-US",
+      "profileId": {
+        "value": "string",
+        "schemeId": "JazzHR Job Application",
+        "schemeAgencyId": "JazzHR"
+      },
+      "associatedPositionOpenings": [{
+        "positionOpeningId": {
+          "value": "string",
+          "schemeId": "JazzHR Job",
+          "schemeAgencyId": "JazzHR"
+        },
+        "positionTitle": "string",
+        "positionUri": "string",
+        "candidateStatus": {
+          "name": "string",
+          "category": "string",
+          "transitionDateTime": "datetime"
         }
-    ]
+      }],
+      "education": [{
+        "educationLevelCodes": [{
+          "name": "string"
+        }]
+      }],
+      "attachments": [{
+        "id": {
+          "value": "number",
+          "schemeId": "JazzHR Document to Candidate",
+          "schemeAgencyId": "JazzHR"
+        },
+        "descriptions": [
+          "string"
+        ],
+        "url": "string"
+      }]
+    }]
+  }
 }
 
 ```
