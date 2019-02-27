@@ -8,6 +8,10 @@ Note: All field types can be set to <strong>null</strong>
 Note: All field types are surrounded by double quotes except for <strong>number</strong> & <strong>boolean</strong> (see examples).
 </aside>
 
+<aside class="notice">
+Note: Date and datetime values are assumed to be in Coordinated Universal Time (UTC). Datetimes are ISO-8601 formatted.
+</aside>
+
 Types | Description | Example
 ----- | ----------- | -------
 string | Arbitrary string of characters/digits/etc. | **"Foo bar 123!"**

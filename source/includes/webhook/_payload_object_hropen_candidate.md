@@ -4,240 +4,81 @@
 
 ```json
 {
-    "documentId": {
-        "value": "string",
-        "schemeId": "JazzHR Candidate Export",
-        "schemeAgencyId": "JazzHR"
-    },
     "person": {
-        "id": {
-            "value": "number",
-            "schemeId": "JazzHR Candidate",
-            "schemeAgencyId": "JazzHR"
-        },
-        "name": {
-            "formattedName": "string",
-            "given": "string",
-            "family": "string"
-        },
-        "gender": "string",
-        "citizenShip": [
-            "string"
-        ],
-        "applyDate": "date",
-        "communication": {
-            "address": [
-                {
-                    "useCode": "private",
-                    "countrySubdivisions": [
-                        {
-                            "type": "state",
-                            "value": "string"
-                        }
-                    ],
-                    "city": "string",
-                    "postalCode": "string",
-                    "line": "string",
-                    "formattedAddress": "string"
-                }
-            ],
-            "phone": [
-                {
-                    "useCode": "private",
-                    "preference": 1,
-                    "formattedNumber": "string"
-                }
-            ],
-            "email": [
-                {
-                    "useCode": "private",
-                    "preference": 1,
-                    "address": "string"
-                }
-            ],
-            "web": [
-                {
-                    "name": "Homepage",
-                    "url": "string"
-                },
-                {
-                    "name": "Linkedin",
-                    "useCode": "business",
-                    "url": "string"
-                },
-                {
-                    "name": "Twitter",
-                    "url": "string"
-                }
-            ]
-        }
+      "id": {
+        "value": "string",
+        "schemeId": "JazzHR Candidate",
+        "schemeAgencyId": "JazzHR"
+      },
+      "name": {
+        "formattedName": "string",
+        "given": "string",
+        "family": "string"
+      },
+      "gender": "string",
+      "citizenShip": [
+        "string"
+      ],
+      "applyDate": "date",
+      "communication": {
+        "address": [{
+          "countrySubdivisions": [{
+            "type": "state",
+            "value": "string"
+          }],
+          "city": "string",
+          "postalCode": "string",
+          "line": "string",
+          "formattedAddress": "string"
+        }],
+        "phone": [{
+          "formattedNumber": "string"
+        }],
+        "email": [{
+          "address": "string"
+        }],
+        "web": "template"
+      }
     },
-    "profiles": [
-        {
-            "languageCode": "en-US",
-            "profileId": {
-                "value": "number",
-                "schemeId": "JazzHR Job Application",
-                "schemeAgencyId": "JazzHR"
-            },
-            "profileName": "Candidate Profile",
-            "personAvailability": {
-                "availabilityDates": [
-                    {
-                        "startDateTime": "date"
-                    }
-                ]
-            },
-            "associatedPositionOpenings": [
-                {
-                    "positionOpeningId": {
-                        "value": "number",
-                        "schemeId": "JazzHR Job",
-                        "schemeAgencyId": "JazzHR"
-                    },
-                    "positionTitle": "string",
-                    "positionUri": "string",
-                    "candidateAppliedIndicator": true
-                }
-            ],
-            "positionPreferences": [
-                {
-                    "locations": [
-                        {
-                            "referenceLocation": {
-                                "countryCode": "string",
-                                "countrySubdivisions": [
-                                    {
-                                        "type": "state",
-                                        "value": "string"
-                                    }
-                                ],
-                                "city": "string",
-                                "postalCode": "string"
-                            }
-                        }
-                    ],
-                    "offeredRenumerationPackage": {
-                        "basisCode": "Salaried",
-                        "ranges": [
-                            {
-                                "typeCode": "BasePay",
-                                "minimumAmount": {
-                                    "value": "number",
-                                    "currency": "USD"
-                                },
-                                "intervalCode": "Year"
-                            }
-                        ]
-                    },
-                    "relocation": {
-                        "willingToRelocateIndicator": "boolean"
-                    }
-                }
-            ],
-            "education": [
-                {
-                    "educationLevelCodes": [
-                        {
-                            "name": "string"
-                        }
-                    ]
-                }
-            ],
-            "attachments": [
-                {
-                    "id": {
-                        "value": "number",
-                        "schemeId": "JazzHR Document to Candidate",
-                        "schemeAgencyId": "JazzHR"
-                    },
-                    "url": "string"
-                }
-            ]
+    "profiles": [{
+      "languageCode": "en-US",
+      "profileId": {
+        "value": "string",
+        "schemeId": "JazzHR Job Application",
+        "schemeAgencyId": "JazzHR"
+      },
+      "associatedPositionOpenings": [{
+        "positionOpeningId": {
+          "value": "string",
+          "schemeId": "JazzHR Job",
+          "schemeAgencyId": "JazzHR"
         },
-        {
-            "languageCode": "en-US",
-            "profileId": {
-                "value": "number",
-                "schemeId": "JazzHR Job Application",
-                "schemeAgencyId": "JazzHR"
-            },
-            "profileName": "Candidate Profile",
-            "personAvailability": {
-                "availabilityDates": [
-                    {
-                        "startDateTime": "date"
-                    }
-                ]
-            },
-            "associatedPositionOpenings": [
-                {
-                    "positionOpeningId": {
-                        "value": "number",
-                        "schemeId": "JazzHR Job",
-                        "schemeAgencyId": "JazzHR"
-                    },
-                    "positionTitle": "string",
-                    "positionUri": "string",
-                    "candidateAppliedIndicator": true
-                }
-            ],
-            "positionPreferences": [
-                {
-                    "locations": [
-                        {
-                            "referenceLocation": {
-                                "countryCode": "string",
-                                "countrySubdivisions": [
-                                    {
-                                        "type": "state",
-                                        "value": "string"
-                                    }
-                                ],
-                                "city": "string",
-                                "postalCode": "string"
-                            }
-                        }
-                    ],
-                    "offeredRenumerationPackage": {
-                        "basisCode": "Salaried",
-                        "ranges": [
-                            {
-                                "typeCode": "BasePay",
-                                "minimumAmount": {
-                                    "value": "number",
-                                    "currency": "USD"
-                                },
-                                "intervalCode": "Year"
-                            }
-                        ]
-                    },
-                    "relocation": {
-                        "willingToRelocateIndicator": "boolean"
-                    }
-                }
-            ],
-            "education": [
-                {
-                    "educationLevelCodes": [
-                        {
-                            "name": "string"
-                        }
-                    ]
-                }
-            ],
-            "attachments": [
-                {
-                    "id": {
-                        "value": "number",
-                        "schemeId": "JazzHR Document to Candidate",
-                        "schemeAgencyId": "JazzHR"
-                    },
-                    "url": "string"
-                }
-            ]
+        "positionTitle": "string",
+        "positionUri": "string",
+        "candidateStatus": {
+          "name": "string",
+          "category": "string",
+          "transitionDateTime": "datetime"
         }
-    ]
+      }],
+      "education": [{
+        "educationLevelCodes": [{
+          "name": "string"
+        }]
+      }],
+      "attachments": [{
+        "id": {
+          "value": "string",
+          "schemeId": "JazzHR Document to Candidate",
+          "schemeAgencyId": "JazzHR"
+        },
+        "descriptions": [
+          "string"
+        ],
+        "url": "string"
+      }]
+    }]
+  }
 }
 
 ```
@@ -272,6 +113,15 @@ Possible Values:
 ### profiles.associatedPositionOpenings.positionOpeningId.value
 
 *Used to key into PositionOpenings*
+
+### profiles.associatedPositionOpenings.candidateStatus
+
+The candidate's status in the hiring workflow. Possible values for `category` include:
+
+- New
+- Active
+- Hired
+- Not Hired
 
 ### profiles.education.educationLevelCodes.name
 
