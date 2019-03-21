@@ -20,7 +20,7 @@ HTTP POST payloads that are delivered to your webhook’s configured URL endpoin
 Header | Description
 ------ | -----------
 Link | This header will contain the URL for the candidate’s profile within JazzHR.
-User-Agent | This header will identify JazzHR as the requesting application user agent.
+User-Agent | This header will identify JazzHR as the requesting application user agent. Header value will be `JazzHR`.
 X-JazzHR-Event | Event type indicator. Header value will be `CANDIDATE-EXPORT`
 X-JazzHR-Export-Context | Optional header indicating the job associated with the exported candidate. Will not be present if candidate exported is not attached to a job.
 X-JazzHR-Signature | The HMAC hex digest of the response body used to verify the source of the webhook payload.<br/><br/>The HMAC hex digest is generated using the `sha256` hash function and the `secret` provided to JazzHR as the HMAC key.
