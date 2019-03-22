@@ -1,8 +1,15 @@
 # Verification Event
 
-During setup, the JazzHR platform will send an HTTP POST to the configured URL to determine if it has been set up correctly. The request body will always match the following JSON:
+> Verification Event JSON Body
 
-`{"data": "JazzHR Verify Event"}`
+```json
+{
+    "data": "JazzHR Verify Event"
+}
+```
+
+During setup, the JazzHR platform will send an HTTP POST to the configured URL to determine if it has been set up correctly.
+
 
 The given endpoint must respond with a status code of 200 to be considered configured correctly to receive any other webhook events from JazzHR.
 
